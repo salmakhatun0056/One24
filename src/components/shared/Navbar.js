@@ -54,6 +54,10 @@ const Navbar = () => {
             {
                 user ?
                     <div class="navbar-end">
+                        <ul class="menu menu-horizontal p-0">
+                            <li className='font-bold'><Link to='/dashboard'>Dashboard</Link></li>
+
+                        </ul>
                         <div class="dropdown dropdown-end">
                             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                                 <div class="w-10 bg-black rounded-full flex justify-center ">
