@@ -41,7 +41,7 @@ const Navbar = () => {
                         <li><a>Item 3</a></li>
                     </ul> */}
                 </div>
-                <p class="font-bold normal-case text-xl">One24</p>
+                <p class="font-bold normal-case text-xl">ShortGun</p>
             </div>
             {/* <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
@@ -54,10 +54,6 @@ const Navbar = () => {
             {
                 user ?
                     <div class="navbar-end">
-                        <ul class="menu menu-horizontal p-0">
-                            <li className='font-bold'><Link to='/dashboard'>Dashboard</Link></li>
-
-                        </ul>
                         <div class="dropdown dropdown-end">
                             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
                                 <div class="w-10 bg-black rounded-full flex justify-center ">
